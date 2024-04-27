@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ab382671-2d06-4dad-a935-b7a70adfc78a}</ProjectGuid>
+    <RootNamespace>Project</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\Packages\include;..\Packages\x86\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Packages\lib;..\Packages\x86\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\Packages\include;..\Packages\x86\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Packages\lib;..\Packages\x86\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\Packages\include;..\Packages\x64\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Packages\lib;..\Packages\x64\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\Packages\include;..\Packages\x64\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Packages\lib;..\Packages\x64\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>F:\Download\Dropbox\Logistic\Source\C++\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Packages\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>F:\Download\Dropbox\Logistic\Source\C++\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;sdl2.lib;sdl2main.lib;openGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Packages\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>F:\Download\Dropbox\Logistic\Source\C++\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Packages\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>F:\Download\Dropbox\Logistic\Source\C++\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;sdl2.lib;sdl2main.lib;openGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Packages\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\File\ASCIIPath.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\File\File.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\File\Log.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\GP301.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\Line301.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\MV010.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\GP030.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\m2f.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\m3f.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\m4f.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\mNf.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\mNMf.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\nCr.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\Plane301.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\pNom.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\Point301.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\pTerm.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\Stats.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v2f.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v2u.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v3f.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v4f.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v6f.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\vNf.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\I301.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Type\ang.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Util\ASCIIValue.cpp" />
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Util\Value.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\File\ASCIIPath.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\File\File.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\File\Log.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\GP301.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\Line301.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\MV010.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\GP030.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\m2f.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\m3f.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\m4f.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\mNf.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\mNMf.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\nCr.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\Plane301.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\pNom.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\Point301.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\pTerm.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\Stats.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v2f.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v2u.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v3f.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v4f.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v6f.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\vNf.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\I301.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\vSpace.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Type\ang.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Type\Errata.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Util\ASCIIValue.h" />
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Util\Value.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{85637473-0167-47d5-940c-80bd55c6b45d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility">
+      <UniqueIdentifier>{977828cf-54e9-4e40-ab69-6afbb7e9bb84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math">
+      <UniqueIdentifier>{e7e58612-36c8-40f7-8bcc-ae4d5b9f3908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math\Matrix">
+      <UniqueIdentifier>{fbed1931-1383-405b-b1aa-dc45b677ea7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math\Polynomial">
+      <UniqueIdentifier>{85135a3b-adbe-4b21-9926-9d5a4bc4cd9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math\Vector">
+      <UniqueIdentifier>{70ac9ddb-9109-46d9-94d9-8b9961a4dc60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math\Combinatoric">
+      <UniqueIdentifier>{7dbf97f1-720a-4c4e-8f6d-2f792a8cc7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\File">
+      <UniqueIdentifier>{44ea3d76-4427-41a8-837c-35b304880bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Type">
+      <UniqueIdentifier>{977cdd00-5c2b-4e8d-a81d-e851d08f89c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math\Vector\Geometric">
+      <UniqueIdentifier>{c8601ebd-f9bb-4869-a4c9-e5f0003dcce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math\Vector\Subscript">
+      <UniqueIdentifier>{6b8377b1-cd62-45a3-84a3-f1b0c897b6c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math\Vector\Geometric\PGA">
+      <UniqueIdentifier>{66600b55-05f4-46f8-9c45-d611344ce467}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Util\ASCIIValue.cpp">
+      <Filter>Engine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Util\Value.cpp">
+      <Filter>Engine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\Stats.cpp">
+      <Filter>Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\File\ASCIIPath.cpp">
+      <Filter>Engine\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\File\File.cpp">
+      <Filter>Engine\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\File\Log.cpp">
+      <Filter>Engine\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v2f.cpp">
+      <Filter>Engine\Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v3f.cpp">
+      <Filter>Engine\Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v4f.cpp">
+      <Filter>Engine\Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Type\ang.cpp">
+      <Filter>Engine\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\m2f.cpp">
+      <Filter>Engine\Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\m3f.cpp">
+      <Filter>Engine\Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\m4f.cpp">
+      <Filter>Engine\Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\nCr.cpp">
+      <Filter>Engine\Math\Combinatoric</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\vNf.cpp">
+      <Filter>Engine\Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\pNom.cpp">
+      <Filter>Engine\Math\Polynomial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\pTerm.cpp">
+      <Filter>Engine\Math\Polynomial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\mNf.cpp">
+      <Filter>Engine\Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\mNMf.cpp">
+      <Filter>Engine\Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\GP030.cpp">
+      <Filter>Engine\Math\Vector\Geometric</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v2u.cpp">
+      <Filter>Engine\Math\Vector\Subscript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\GP301.cpp">
+      <Filter>Engine\Math\Vector\Geometric\PGA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\Line301.cpp">
+      <Filter>Engine\Math\Vector\Geometric\PGA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\MV010.cpp">
+      <Filter>Engine\Math\Vector\Geometric\PGA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\Plane301.cpp">
+      <Filter>Engine\Math\Vector\Geometric\PGA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\Point301.cpp">
+      <Filter>Engine\Math\Vector\Geometric\PGA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\I301.cpp">
+      <Filter>Engine\Math\Vector\Geometric\PGA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v6f.cpp">
+      <Filter>Engine\Math\Vector</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Type\Errata.h">
+      <Filter>Engine\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Util\ASCIIValue.h">
+      <Filter>Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Util\Value.h">
+      <Filter>Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\Stats.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\File\Log.h">
+      <Filter>Engine\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\File\ASCIIPath.h">
+      <Filter>Engine\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\File\File.h">
+      <Filter>Engine\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v2f.h">
+      <Filter>Engine\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v3f.h">
+      <Filter>Engine\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v4f.h">
+      <Filter>Engine\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Type\ang.h">
+      <Filter>Engine\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\m2f.h">
+      <Filter>Engine\Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\m3f.h">
+      <Filter>Engine\Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\m4f.h">
+      <Filter>Engine\Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\vSpace.h">
+      <Filter>Engine\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\nCr.h">
+      <Filter>Engine\Math\Combinatoric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\vNf.h">
+      <Filter>Engine\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\pNom.h">
+      <Filter>Engine\Math\Polynomial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\pTerm.h">
+      <Filter>Engine\Math\Polynomial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\mNf.h">
+      <Filter>Engine\Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\mNMf.h">
+      <Filter>Engine\Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\GP030.h">
+      <Filter>Engine\Math\Vector\Geometric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v2u.h">
+      <Filter>Engine\Math\Vector\Subscript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\GP301.h">
+      <Filter>Engine\Math\Vector\Geometric\PGA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\Line301.h">
+      <Filter>Engine\Math\Vector\Geometric\PGA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\MV010.h">
+      <Filter>Engine\Math\Vector\Geometric\PGA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\Plane301.h">
+      <Filter>Engine\Math\Vector\Geometric\PGA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\Point301.h">
+      <Filter>Engine\Math\Vector\Geometric\PGA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\I301.h">
+      <Filter>Engine\Math\Vector\Geometric\PGA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Download\Dropbox\Logistic\Source\C++\Engine\Math\v6f.h">
+      <Filter>Engine\Math\Vector</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
